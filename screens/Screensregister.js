@@ -26,12 +26,7 @@ const Screensregister = ({navigation}) => {
             .collection('Users')
             .doc(auth().currentUser.uid)
             .set({
-                userID: auth().currentUser.uid,
-                email: email,
-                fname: fname,
-                lname: lname,
-                gender: gender,
-                date: firestore.Timestamp.fromDate(date),
+                
 
             })
             .then(() => {
