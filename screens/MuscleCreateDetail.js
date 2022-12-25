@@ -8,7 +8,6 @@ const MuscleCreateDetail = ({navigation, route}) => {
     const [musclecreate_description, setMusclecreate_description] = useState([]);
     const [musclecreate_image, setMusclecreate_image] = useState([]);
     const [musclecreate_times, setMusclecreate_times] = useState([])
-    const [loading, setLoading] = useState
   
 
     useEffect(() => {
