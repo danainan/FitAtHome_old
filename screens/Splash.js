@@ -20,7 +20,7 @@ export default function Splash({navigation}){
         navigation.navigate('Screensmenu');
       } else {
         console.log('User is not signed in');
-        // alert('User is not signed in');
+        
         navigation.navigate('Screenslogin');
       }
     });
